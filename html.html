@@ -1,0 +1,69 @@
+<!DOCTYPE html5>
+<html>
+
+<head>
+  <script src="jsocde.js"></script>
+  <title>
+    STOCK TRADING
+  </title>
+  <link rel="stylesheet" type="text/css" href="format.css">
+</head>
+
+<body>
+
+  <div id="stockdiv">
+
+    <table id="stocktable">
+      <tr>
+        <th>Company Name</th>
+        <th>Stock Market Value<br>Rs.</th>
+        <th>Stock Owned<br>Nos.</th>
+        <th>BUY</th>
+        <th>SELL</th>
+      </tr>
+      <tr>
+        <td>ITC Ltd.</td>
+        <td id="itcvalue">50</td>
+        <td id="itcowned">600</td>
+        <td><textarea id="itctobuy" name="itctobuy" rows="1" cols="10px"></textarea></td>
+        <td><textarea id="itctosell" name="itctosell" rows="1" cols="10px"></textarea></td>
+    </tr>
+    <tr>
+      <td>Infosys Ltd.</td>
+      <td id="steamvalue">100</td>
+      <td id="steamowned">125</td>
+      <td><textarea id="steamtobuy" name="steamtobuy" rows="1" cols="10px"></textarea></td>
+      <td><textarea id="steamtosell" name="steamtosell" rows="1" cols="10px"></textarea></td>
+  </tr>
+  <tr>
+    <td>Reliance Ltd.</td>
+    <td id="relvalue">150</td>
+    <td id="relowned">130</td>
+    <td><textarea id="reltobuy" name="itctobuy" rows="1" cols="10px"></textarea></td>
+    <td><textarea id="reltosell" name="itctosell" rows="1" cols="10px"></textarea></td>
+</tr>
+<tr>
+  <td>Bharti Airtel</td>
+  <td id="airvalue">200</td>
+  <td id="airowned">170</td>
+  <td><textarea id="airtobuy" name="itctobuy" rows="1" cols="10px"></textarea></td>
+  <td><textarea id="airtosell" name="itctosell" rows="1" cols="10px"></textarea></td>
+</tr>
+<tr>
+  <td>BSNL Ltd.</td>
+  <td id="bsnlvalue">250</td>
+  <td id="bsnlowned">250</td>
+  <td><textarea id="bsnltobuy" name="itctobuy" rows="1" cols="10px"></textarea></td>
+  <td><textarea id="bsnltosell" name="itctosell" rows="1" cols="10px"></textarea></td>
+</tr>
+    </table>
+    <p id="savingsdisplay1"><b>SAVINGS BANK ACCOUNT</b></p>
+    <p id="savingsdisplay2"><mark><b>BALANCE:<br>100000</b></mark></p>
+    <button id="transactbtn" onclick="TRANSACT()">PERFORM<br>TRANSACTIONS</button>
+  </div>
+<img src="logo.png" id="tablelogo"></img>
+<img src="logo2.png" id="dematlogo"></img>
+<p id="credittext">Made By Aryan Poonacha</p>
+<p id="moneychangetext"></p>
+</body>
+</html>
